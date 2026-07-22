@@ -1,2 +1,2 @@
-# Ola-Mundo
-N/A
+# Olá, Mundo
+Repositório de exercícios
