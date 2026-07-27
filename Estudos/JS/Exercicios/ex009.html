@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex009 HTML</title>
+</head>
+<body>
+   <h1>Identificador de nacionalidade</h1>
+   Digite o nome do seu pais <input type="text" id="txtpais"><input type="button" value="verificar" onclick="verificar()">
+   <div id="res">
+   </div>
+
+   <script>
+    function verificar(){
+    var pais = window.document.getElementById('txtpais')
+    var res = window.document.getElementById('res')
+    
+    if(pais.value=="Brasil"){
+        res.innerText = "você é Brasileiro"
+    }else{
+        res.innerText ="Você é estrangeiro"
+    }
+}
+    
+
+   </script>
+</body>
+</html>
