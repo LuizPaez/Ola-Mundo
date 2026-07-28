@@ -1,0 +1,17 @@
+body{
+background-color: rgb(70, 142, 246);
+text-align: center;
+color: white;
+}
+section{
+background-color: white;
+padding: 15px;
+margin: auto;
+width: 500px;
+height: 10px;
+border-radius: 15px;
+}
+footer{
+color: white;
+text-align: center;
+}
